@@ -14,7 +14,7 @@ while (redisDb == null)
         var redisConnString = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING");
         var options = ConfigurationOptions.Parse(redisConnString);
         options.AbortOnConnectFail = false;
-        Console.WriteLine("redis******",redisDb);
+        Console.WriteLine("redis******", redisConnString);
         Console.WriteLine("Tentative de connexion à Redis...");
         var redis = ConnectionMultiplexer.Connect("REDIS_CONNECTION_STRING");
         redisDb = redis.GetDatabase();
@@ -23,7 +23,7 @@ while (redisDb == null)
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Redis non prêt, retry dans 1s... ({ex.Message})");
+        Console.WriteLine($"Redis non pret, retry dans 1s... ({ex.Message})");
         Thread.Sleep(1000);
     }
 }
