@@ -12,7 +12,7 @@ while (redisDb == null)
     try
     {
         Console.WriteLine("Tentative de connexion à Redis...");
-        var redis = ConnectionMultiplexer.Connect("redis:6379,abortConnect=false");
+        var redis = ConnectionMultiplexer.Connect("REDIS_CONNECTION_STRING");
         redisDb = redis.GetDatabase();
         Console.WriteLine("Connecté à Redis !");
     }
