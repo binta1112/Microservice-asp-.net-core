@@ -15,6 +15,7 @@ while (redisDb == null)
         var options = ConfigurationOptions.Parse(redisConnString);
         options.AbortOnConnectFail = false;
         Console.WriteLine("redis******");
+        Console.WriteLine(redisConnString);
         Console.WriteLine("Tentative de connexion...");
         var redis = ConnectionMultiplexer.Connect("REDIS_CONNECTION_STRING");
         redisDb = redis.GetDatabase();
