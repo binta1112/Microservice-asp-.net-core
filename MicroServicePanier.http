@@ -1,0 +1,6 @@
+@MicroServicePanier_HostAddress = http://localhost:5039
+
+GET {{MicroServicePanier_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
