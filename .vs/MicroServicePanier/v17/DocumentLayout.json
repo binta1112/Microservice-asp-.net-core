@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:controllers\\paniercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC213E63-FD37-486D-9850-D9932756F303}|MicroServicePanier.csproj|c:\\users\\binta\\onedrive\\bureau\\framework .net\\microservicepanier\\microservicepanier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -59,19 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T23:16:36.04Z"
+              "WhenOpened": "2025-10-27T23:16:36.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PanierController.cs",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Controllers\\PanierController.cs",
               "RelativeDocumentMoniker": "Controllers\\PanierController.cs",
@@ -79,12 +80,11 @@
               "RelativeToolTip": "Controllers\\PanierController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAewCsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T23:09:19.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T23:09:19.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PanierService.cs",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Service\\PanierService.cs",
               "RelativeDocumentMoniker": "Service\\PanierService.cs",
@@ -92,12 +92,11 @@
               "RelativeToolTip": "Service\\PanierService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T23:05:17.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T23:05:17.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Model\\Cart.cs",
               "RelativeDocumentMoniker": "Model\\Cart.cs",
@@ -109,15 +108,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\Binta\\OneDrive\\Bureau\\FrameWork .net\\MicroServicePanier\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T19:36:23.781Z"
+              "WhenOpened": "2025-11-10T19:36:23.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
