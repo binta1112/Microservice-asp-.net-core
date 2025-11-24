@@ -17,7 +17,16 @@ while (redisDb == null)
         Console.WriteLine("redis******");
         Console.WriteLine(redisConnString);
         Console.WriteLine("Tentative de connexion...");
-        var redis = ConnectionMultiplexer.Connect("REDIS_CONNECTION_STRING");
+       // var redis = ConnectionMultiplexer.Connect("REDIS_CONNECTION_STRING");
+        var redis = ConnectionMultiplexer.Connect(
+            new ConfigurationOptions
+            {
+                EndPoints = { { "redis-19414.c256.us-east-1-2.ec2.cloud.redislabs.com", 19414 } },
+                User = "default",
+                Password = "PMBr7eOYP2quaiBLN2GeyQHTtsW3nbB2"
+            }
+
+            );
         redisDb = redis.GetDatabase();
         Console.WriteLine("Connecté a Redis !");
 
