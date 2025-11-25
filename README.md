@@ -30,15 +30,11 @@ Toutes les routes sont préfixées par `/api/panier`
 
 - GET `/api/panier/{userId}`  
   Récupérer le panier de l'utilisateur.  
-  -> 200 OK + `Cart` ou 200 + `null` si aucun panier.
+  -> 200 OK + `Cart` ou 204  si aucun panier.
 
 - POST `/api/panier/{userId}`  
   Ajouter un produit ou incrémenter sa quantité. Body: `CartItem`.  
   -> 200 OK + `Cart`
-
-- DELETE `/api/panier/{userId}`  
-  Supprimer le panier complet.  
-  -> 204 No Content
 
 - PATCH `/api/panier/{userId}/items/{productId}/increase?amount={n}`  
   Augmenter la quantité (défaut `amount=1`).  
